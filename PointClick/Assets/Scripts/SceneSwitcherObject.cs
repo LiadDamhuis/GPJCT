@@ -6,11 +6,11 @@ using UnityEngine.SceneManagement;
 public class SceneSwitcherObject : MonoBehaviour
 {
     public int num;
-   
+
     private void OnMouseDown()
     {
         SceneManager.LoadScene(num);
-        Debug.Log("Scene changed to " + num);
+        Debug.Log("Scene changed to " + num);       
     }
 
 
@@ -24,7 +24,7 @@ public class SceneSwitcherObject : MonoBehaviour
             if (Physics.Raycast(ray, out hit, 100.0f))
         {
 
-            if (hit.collider.gameObject.tag == "Switch")
+            if (hit.collider.gameObject.tag == "Switch") //tag not even registered? Any tag will still do.
               {
                     SceneManager.LoadScene(num);
                     Debug.Log("Scene changed to " + num);
