@@ -5,14 +5,14 @@ using UnityEngine;
 public class CloseUpTrigger : MonoBehaviour
 {
 
-    public GameObject closeupObject;
-    public GameObject canvasSwitch;
+    public GameObject closeupScreen;
+    //public GameObject canvasSwitch;
 
 
     private void OnMouseDown()
     {
-        closeupObject.SetActive(false);
-        canvasSwitch.SetActive(false);
+        closeupScreen.SetActive(false);
+        //canvasSwitch.SetActive(false);
     }
 
 
@@ -26,17 +26,11 @@ public class CloseUpTrigger : MonoBehaviour
             {
                 if (hit.collider.gameObject)
                 {
-                    closeupObject.SetActive(true);
+                    closeupScreen.SetActive(true);
+                    //canvasSwitch.SetActive(false);
                     print("Sphere click!");
                 }
             }
         }
-        //if (Input.GetMouseButtonDown(0)) 
-        //{
-        //    if (closeupObject.activeInHierarchy == true)
-         //   {
-             //   closeupObject.SetActive(false);
-         //   }
-       // }
     }
 }
