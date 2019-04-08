@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class CloseUpTrigger : MonoBehaviour
 {
-
+    public AudioSource myFx;
+    public AudioClip clickFx;
     public GameObject closeupScreen;
     //public GameObject canvasSwitch;
 
@@ -14,6 +15,7 @@ public class CloseUpTrigger : MonoBehaviour
         closeupScreen.SetActive(false);
         //canvasSwitch.SetActive(false);
     }
+
 
 
     void Update()
@@ -27,10 +29,14 @@ public class CloseUpTrigger : MonoBehaviour
                 if (hit.collider.gameObject)
                 {
                     closeupScreen.SetActive(true);
-                    //canvasSwitch.SetActive(false);
+                    myFx.PlayOneShot(clickFx);
                     print("Sphere click!");
                 }
             }
+        }
+        if (Input.GetMouseButtonDown(1))
+        {
+            closeupScreen.SetActive(false);
         }
     }
 }

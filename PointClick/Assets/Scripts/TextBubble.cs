@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
 
-public class DisplayImage : MonoBehaviour
+public class TextBubble : MonoBehaviour
 {
 
 

@@ -23,21 +23,24 @@ public class SceneSwitcherObject : MonoBehaviour
         GUI.DrawTexture(new Rect(0, 0, Screen.width, Screen.height), fadeOutTexture);
     }
 
-    public float BeginFade (int direction)
+    public float BeginFade(int direction)
     {
         fadeDir = direction;
         return (fadeSpeed);
     }
 
-    void OnLevelWasLoaded() 
+    void OnLevelWasLoaded()
     {
-        BeginFade(-1); 
+        BeginFade(-1);
     }
+
+
+
 
     private void OnMouseDown()
     {
         SceneManager.LoadScene(num);
-        Debug.Log("Scene changed to " + num);       
+        Debug.Log("Scene changed to " + num);
     }
 
 
@@ -49,14 +52,13 @@ public class SceneSwitcherObject : MonoBehaviour
             RaycastHit hit;
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             if (Physics.Raycast(ray, out hit, 100.0f))
-        {
-
-            if (hit.collider.gameObject.tag == "Switch") //tag not even registered? Any tag will still do.
-              {
+            {
+                if (hit.collider.gameObject.tag == "Switch") //tag not even registered? Any tag will still do.
+                {
                     SceneManager.LoadScene(num);
                     Debug.Log("Scene changed to " + num);
-              }
-           }
+                }
+            }
         }
     }
 }
