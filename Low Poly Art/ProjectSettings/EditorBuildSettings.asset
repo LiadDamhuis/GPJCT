@@ -11,7 +11,10 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/CargoTrain.unity
     guid: e06b1fca34783af47b9d8362debedf36
+  - enabled: 1
+    path: Assets/Scenes/Midterm/Room.unity
+    guid: 5f63851515af1444f86f17e2b117112f
   m_configObjects: {}
