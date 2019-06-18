@@ -61,7 +61,7 @@ public class PlayerEvents : MonoBehaviour
         if (OVRInput.IsControllerConnected(OVRInput.Controller.LTrackedRemote))
             controllerCheck = OVRInput.Controller.LTrackedRemote;
 
-        if (OVRInput.IsControllerConnected(OVRInput.Controller.LTrackedRemote) && 
+        if (OVRInput.IsControllerConnected(OVRInput.Controller.LTrackedRemote) &&
             OVRInput.IsControllerConnected(OVRInput.Controller.RTrackedRemote))
             controllerCheck = OVRInput.Controller.Touchpad;
 
@@ -74,20 +74,21 @@ public class PlayerEvents : MonoBehaviour
         m_InputSource = UpdateSource(OVRInput.GetActiveController(), m_InputSource);
     }
 
-    private void Input ()
+    private void Input()
     {
-        if (OVRInput.GetDown(OVRInput.Button.PrimaryTouchpad))
+        if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger))
         {
             if (OnTouchpadDown != null)
                 OnTouchpadDown();
         }
-          if (OVRInput.GetUp(OVRInput.Button.PrimaryTouchpad))
-            {
+        if (OVRInput.GetUp(OVRInput.Button.PrimaryIndexTrigger))
+        {
             if (OnTouchpadUp != null)
                 OnTouchpadUp();
+            Debug.Log("test");
         }
-        }
-    
+    }
+
     private OVRInput.Controller UpdateSource(OVRInput.Controller check, OVRInput.Controller previous)
     {
         if (check == previous)

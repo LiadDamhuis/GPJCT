@@ -47,7 +47,7 @@ public class SceneSwitcherObject : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (OVRInput.GetUp(OVRInput.Button.PrimaryIndexTrigger))
         {
             RaycastHit hit;
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);

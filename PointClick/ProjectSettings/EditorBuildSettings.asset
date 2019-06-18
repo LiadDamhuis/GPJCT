@@ -8,10 +8,16 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/PnCTest1.unity
     guid: 9e64719b95a7f714cb953149c806d23f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/PnCTest2.unity
     guid: a6a7258f6e8f7954a916f67761a36813
+  - enabled: 1
+    path: Assets/Scenes/RoomTest1.unity
+    guid: fd27e96cde1bdec4490db4bb51d33567
+  - enabled: 1
+    path: Assets/Scenes/RoomTest2.unity
+    guid: 092dd90c04877e441b842a94465cf6ff
   m_configObjects: {}
