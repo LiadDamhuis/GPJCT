@@ -36,7 +36,6 @@ public class SceneSwitcherObject : MonoBehaviour
 
 
 
-
     private void OnMouseDown()
     {
         SceneManager.LoadScene(num);

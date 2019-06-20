@@ -32,8 +32,6 @@ public class displayUI : MonoBehaviour
         displayInfo = false;
     }
 
-  
-    
 
     void FadeText()
     {

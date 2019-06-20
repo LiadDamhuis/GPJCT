@@ -86,6 +86,7 @@ public class PlayerEvents : MonoBehaviour
             if (OnTouchpadUp != null)
                 OnTouchpadUp();
             Debug.Log("test");
+
         }
     }
 
