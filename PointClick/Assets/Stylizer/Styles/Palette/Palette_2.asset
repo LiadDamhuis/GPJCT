@@ -26,7 +26,7 @@ MonoBehaviour:
   - {r: 1, g: 0.9686275, b: 0.8352942, a: 1}
   Texture: {fileID: 28371524331154890}
   HasTexture: 1
-  IsDirty: 0
+  IsDirty: 1
 --- !u!28 &28371524331154890
 Texture2D:
   m_ObjectHideFlags: 0

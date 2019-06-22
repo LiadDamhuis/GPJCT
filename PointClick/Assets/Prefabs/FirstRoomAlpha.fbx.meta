@@ -826,6 +826,7 @@ ModelImporter:
     101640: WindowFrames
     101642: WindowsWindows
     101644: WindowWall
+    101646: StereoBox1
     400000: A
     400002: Albums
     400004: Arrow
@@ -1649,6 +1650,7 @@ ModelImporter:
     401640: WindowFrames
     401642: WindowsWindows
     401644: WindowWall
+    401646: StereoBox1
     2100000: lambert1
     2100002: Glass1
     2100004: blinn3
@@ -2344,6 +2346,7 @@ ModelImporter:
     2301328: StereoBox
     2301330: Trouser1
     2301332: WindowWall
+    2301334: StereoBox1
     3300000: A
     3300002: Arrow
     3300004: B
@@ -3011,6 +3014,7 @@ ModelImporter:
     3301328: StereoBox
     3301330: Trouser1
     3301332: WindowWall
+    3301334: StereoBox1
     4300000: cube
     4300002: cube1
     4300004: cube2
@@ -3678,6 +3682,7 @@ ModelImporter:
     4301328: GlassWindows:pCube192
     4301330: GlassWindows:pCube190
     4301332: GlassWindows:pCube189
+    4301334: StereoBox1
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
