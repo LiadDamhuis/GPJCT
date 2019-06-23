@@ -3684,7 +3684,172 @@ ModelImporter:
     4301332: GlassWindows:pCube189
     4301334: StereoBox1
     2186277476908879412: ImportLogs
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BlueDark
+    second: {fileID: 2100000, guid: a03986ef4ea712c45a5b323eca89f881, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BlueLight
+    second: {fileID: 2100000, guid: b1520641402762e439274a1c314a2b4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BlueMedium
+    second: {fileID: 2100000, guid: 4543cddfc71839a4b88d886a97581247, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BlueTurq
+    second: {fileID: 2100000, guid: 735dca5684b52eb43a1b08b8cc5db3d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BrownDark
+    second: {fileID: 2100000, guid: 89d69a74714f63942addc1907b859db6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BrownGrey
+    second: {fileID: 2100000, guid: 2066af407e0bc7b4583d137ead0c77a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BrownLight
+    second: {fileID: 2100000, guid: 5f1e571098d252c419138b262bc585e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BrownMedium
+    second: {fileID: 2100000, guid: 9f258c0ba6cda2d47854faca86e98eff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass1
+    second: {fileID: 2100000, guid: 17d47471b480d06409f7cf6a88ce82fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GlassWindows_Glass1
+    second: {fileID: 2100000, guid: 6ded729a3cee3ed4e88392ebc8b8f857, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GreenArmyDark
+    second: {fileID: 2100000, guid: 65bf2b2f4f91a1648a4019bfcf997e4c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GreenArmyLight
+    second: {fileID: 2100000, guid: 9ac9e9d1cc8a12d47acac1d9a356b9e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GreenTurqDark
+    second: {fileID: 2100000, guid: ff6064956a53049469424630624942bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GreenTurqLight
+    second: {fileID: 2100000, guid: b3586b96a74dbfb429212b84bde7e70f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GreyPurple
+    second: {fileID: 2100000, guid: 16b11b58a7dda1e41a15d9531462db58, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MetalBlack
+    second: {fileID: 2100000, guid: 03819db2822382a4b8abe11f5dff942d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NewStuff
+    second: {fileID: 2100000, guid: 588e6c6ccb50b984ba7e0ac6d2d41096, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ObjectTexture1
+    second: {fileID: 2100000, guid: 42c17751447c5c546965ed390601e956, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OrangeCopper
+    second: {fileID: 2100000, guid: 13fb9a9abdcf7d04fa49f051acf58f92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OrangeLight
+    second: {fileID: 2100000, guid: 110d0d35ccacd374b90e1cfd21eb2aac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OtherTexture
+    second: {fileID: 2100000, guid: 0eca05444c68b63489ae269ba1cbf0ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plants1
+    second: {fileID: 2100000, guid: c22284a0656749e4a90c4477d4b05cc1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SquareTexture
+    second: {fileID: 2100000, guid: 2075fb08ee814034189cca103d87696c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WhineRed
+    second: {fileID: 2100000, guid: f4734e456b4e8f54a916fde0a9300d2f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WhiteOff
+    second: {fileID: 2100000, guid: 4746f750b6d92f240b3e4c1ffb786931, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn3
+    second: {fileID: 2100000, guid: 2d7d2b5e3777ccb45a8981571d8fded2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 5fb14980e29538541a351c324493e32e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: phong2
+    second: {fileID: 2100000, guid: dc0ad12c5cf21174f8934ee41cba3be0, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: FinalTextureFILLED
+    second: {fileID: 2800000, guid: 37450d83acc95f148918f35a06e8bdbc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: MayaObjectTextFILLED
+    second: {fileID: 2800000, guid: 98d80f2c49cd681498bde6efea17ead5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: MayaSquareTextFILLED
+    second: {fileID: 2800000, guid: 8f5f9b868f2357943b1f631d73f041ed, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: OtherTexturesFILLED
+    second: {fileID: 2800000, guid: 2329f398e24581241aaa0f6ca9b90591, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantsTexture
+    second: {fileID: 2800000, guid: 7edcae02052dc6a4da3d189a9c7b7295, type: 3}
   materials:
     importMaterials: 1
     materialName: 0

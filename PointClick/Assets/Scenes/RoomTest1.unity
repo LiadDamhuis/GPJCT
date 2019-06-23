@@ -44,7 +44,7 @@ RenderSettings:
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 11
-  m_GIWorkflowMode: 0
+  m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -254,7 +254,7 @@ MonoBehaviour:
   Grain_Old: 0
   Grain_New: 0
   grain:
-    m_Enabled: 0
+    m_Enabled: 1
     m_Settings:
       colored: 0
       intensity: 0.2
@@ -284,7 +284,7 @@ MonoBehaviour:
   monochromeTiling: 64
   filterMode: 1
   noiseTexture: {fileID: 2800000, guid: 7a632f967e8ad42f5bd275898151ab6a, type: 3}
-  noiseShader: {fileID: 0}
+  noiseShader: {fileID: 4800000, guid: 2b63037831bb3834dbe7f37515cc9ec8, type: 3}
   dx11NoiseShader: {fileID: 0}
   profile: {fileID: 11400000, guid: 82310dfd7a370d54c978d7127017f6d1, type: 2}
   ub: {fileID: 2100000, guid: 1e274b34f167f8543b55f5c4508f0190, type: 2}
@@ -866,7 +866,7 @@ MonoBehaviour:
   Grain_Old: 0
   Grain_New: 0
   grain:
-    m_Enabled: 0
+    m_Enabled: 1
     m_Settings:
       colored: 0
       intensity: 0.2
@@ -896,7 +896,7 @@ MonoBehaviour:
   monochromeTiling: 64
   filterMode: 1
   noiseTexture: {fileID: 2800000, guid: 7a632f967e8ad42f5bd275898151ab6a, type: 3}
-  noiseShader: {fileID: 0}
+  noiseShader: {fileID: 4800000, guid: 2b63037831bb3834dbe7f37515cc9ec8, type: 3}
   dx11NoiseShader: {fileID: 0}
   profile: {fileID: 11400000, guid: 82310dfd7a370d54c978d7127017f6d1, type: 2}
   ub: {fileID: 2100000, guid: 1e274b34f167f8543b55f5c4508f0190, type: 2}
@@ -5103,7 +5103,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1758909134}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 106e5c17785b41a49af8d53198407d04, type: 3}
   m_Name: 
@@ -5144,7 +5144,7 @@ MonoBehaviour:
   monochromeTiling: 64
   filterMode: 1
   noiseTexture: {fileID: 2800000, guid: 7a632f967e8ad42f5bd275898151ab6a, type: 3}
-  noiseShader: {fileID: 0}
+  noiseShader: {fileID: 4800000, guid: 2b63037831bb3834dbe7f37515cc9ec8, type: 3}
   dx11NoiseShader: {fileID: 0}
   profile: {fileID: 11400000, guid: 82310dfd7a370d54c978d7127017f6d1, type: 2}
   ub: {fileID: 2100000, guid: 1e274b34f167f8543b55f5c4508f0190, type: 2}
@@ -5674,7 +5674,7 @@ MonoBehaviour:
   Grain_Old: 0
   Grain_New: 0
   grain:
-    m_Enabled: 0
+    m_Enabled: 1
     m_Settings:
       colored: 0
       intensity: 0.2
@@ -6042,6 +6042,51 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4574319096489288578, guid: 9bd6d5ada3a4fd346892174835fade4a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.8962264
+      objectReference: {fileID: 0}
+    - target: {fileID: 4574319096489288578, guid: 9bd6d5ada3a4fd346892174835fade4a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.57858706
+      objectReference: {fileID: 0}
+    - target: {fileID: 4574319096489288578, guid: 9bd6d5ada3a4fd346892174835fade4a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.26633143
+      objectReference: {fileID: 0}
+    - target: {fileID: 4574319096501872398, guid: 9bd6d5ada3a4fd346892174835fade4a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.5943396
+      objectReference: {fileID: 0}
+    - target: {fileID: 4574319096501872398, guid: 9bd6d5ada3a4fd346892174835fade4a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.39427248
+      objectReference: {fileID: 0}
+    - target: {fileID: 4574319096501872398, guid: 9bd6d5ada3a4fd346892174835fade4a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.1541919
+      objectReference: {fileID: 0}
+    - target: {fileID: 4574319097268446950, guid: 9bd6d5ada3a4fd346892174835fade4a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4574319097268446950, guid: 9bd6d5ada3a4fd346892174835fade4a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.6242256
+      objectReference: {fileID: 0}
+    - target: {fileID: 4574319097268446950, guid: 9bd6d5ada3a4fd346892174835fade4a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.1745283
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9bd6d5ada3a4fd346892174835fade4a, type: 3}
